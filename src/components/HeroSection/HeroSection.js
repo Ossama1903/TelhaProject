@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="Containerr">
         <main style={{ maxWidth: '50%' }} className='py-36 m-auto lg:m-0 centered'>
           <div className="text-center lg:text-left">
-            <div className="text-3xl font-bold tracking-tight sm:text4xl md:text-5xl">
+            <div>
               <SimpleHeading text="Data to enrich your " />
             </div>
             <div style={{ paddingTop: 16}} className="max-w-full">
@@ -20,7 +20,7 @@ const HeroSection = () => {
             </div>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <Button text='Lorem Ipsum' />
+              <Button text='Lorem Ipsum' width={10} height={4} />
             </div>
           </div>
           <div></div>
