@@ -7,13 +7,13 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Dropdown = () => {
+const Dropdown = (props) => {
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className={`relative inline-block text-left ${props.width}`}>
       <div>
-        <Menu.Button className="inline-flex w-full justify-center items-center rounded-md border border-gray-300 bg-white px-10 py-3 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
-          Lorem Ipsum
-          <ChevronDownIcon className="-mr-1 ml-5 h-5 w-5" aria-hidden="true" />
+        <Menu.Button className="inline-flex justify-between w-full items-center rounded-md border border-gray-300 bg-white px-5 py-3 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+          <div>Lorem Ipsum</div>
+          <ChevronDownIcon className="ml-5 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
       </div>
 

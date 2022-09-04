@@ -12,13 +12,13 @@ const SearchArea = () => {
         <div className='text-center mb-10'>
             <SimpleHeading text="Lorem Ipsum" />
         </div>
-        <hr className="my-20 mx-auto w-14" />
+        <hr className="my-14 mx-auto w-14" />
 
-        <div className='Containerr flex items-center gap-5 justify-around'>
-            <Dropdown />
-            <Dropdown />
-            <TextField placeHolder="Lorem Ipsum" />
-            <Button text="Lorem" width={10} height={3} />
+        <div className='Containerr flex md:flex-row flex-col items-center gap-10 md:gap-5 justify-around '>
+            <Dropdown width="md:w-1/5 w-4/5" />
+            <Dropdown width="md:w-1/5 w-4/5" />
+            <TextField width="md:w-1/5 w-4/5" placeHolder="Lorem Ipsum" />
+            <Button  text="Lorem" width={10} height={3} />
         </div>
     </div>
   )
