@@ -20,7 +20,7 @@ const HeroSection = () => {
             </div>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <Button text='Lorem Ipsum' width={10} height={4} />
+              <Button text='Lorem Ipsum' width={12} height={4} />
             </div>
           </div>
           <div></div>

@@ -18,7 +18,7 @@ const SearchArea = () => {
             <Dropdown width="md:w-1/5 w-4/5" />
             <Dropdown width="md:w-1/5 w-4/5" />
             <TextField width="md:w-1/5 w-4/5" placeHolder="Lorem Ipsum" />
-            <Button  text="Lorem" width={10} height={3} />
+            <Button  text="Lorem" width={12} height={3} />
         </div>
     </div>
   )
