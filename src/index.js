@@ -11,6 +11,7 @@ import ServiceSection from './components/ServiceSection/ServiceSection';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ root.render(
     <HeroSection />
     <SearchArea />
     <ServiceSection />
+   
 
   </React.StrictMode>
 );

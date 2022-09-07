@@ -13,7 +13,7 @@ const HeroSection = () => {
         <main style={{ maxWidth: '50%' }} className='py-36 m-auto lg:m-0 centered'>
           <div className="text-center lg:text-left">
             <div>
-              <SimpleHeading text="Data to enrich your " />
+              <SimpleHeading color="white" text="Data to enrich your " size={5} />
             </div>
             <div style={{ paddingTop: 16}} className="max-w-full">
               <HighlightedHeading text="Online Business" />

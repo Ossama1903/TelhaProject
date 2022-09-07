@@ -10,9 +10,9 @@ const SearchArea = () => {
   return (
     <div className='py-20 bg-indigo-400 mt-10 mb-10'>
         <div className='text-center mb-10'>
-            <SimpleHeading text="Lorem Ipsum" />
+            <SimpleHeading color="white" text="Lorem Ipsum" size={5} />
         </div>
-        <hr className="my-14 mx-auto w-14" />
+        <hr className="my-14 mx-auto w-14 border" />
 
         <div className='Containerr flex md:flex-row flex-col items-center gap-10 md:gap-5 justify-around '>
             <Dropdown width="md:w-1/5 w-4/5" />
