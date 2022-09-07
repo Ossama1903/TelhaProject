@@ -3,7 +3,7 @@ import Paragraph from "../Paragraph/Paragraph";
 import "../../index.css";
 import SimpleHeading from "../TextHeadings/SimpleHeading";
 import IconCard from "../Cards/IconCard";
-import TextPictureCard from "../Cards/TextPictureCard";
+
 
 const ServiceSection = () => {
   return (
@@ -25,7 +25,7 @@ const ServiceSection = () => {
             <IconCard headingText="Lorem Ipsum" paragraphText="Our customers get access to a wider variety of products, ensuring more sales up and down the supply chain."/>
             <IconCard headingText="Lorem Ipsum" paragraphText="Our customers get access to a wider variety of products, ensuring more sales up and down the supply chain."/>
           </div>
-            <TextPictureCard />
+            
         </div>
       </div>
     </section>
