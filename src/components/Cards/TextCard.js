@@ -3,9 +3,14 @@ import Paragraph from "../Paragraph/Paragraph";
 import SimpleHeading from "../TextHeadings/SimpleHeading";
 import Button from "../Buttons/Button";
 
-const TextCard = () => {
+const TextCard = (props) => {
+
+    var paddingSwitch;
+    paddingSwitch = props.reverse===true ? "md:pr-10 lg:pr-20" : "md:pl-10 lg:pl-20";
+
+
   return (
-    <div className="max-w-full md:max-w-1/2 text-base md:pl-10 lg:pl-20">
+    <div className={`max-w-full md:max-w-1/2 text-base ${paddingSwitch}`}>
       <SimpleHeading color="neutral-700" text="Lorem Ipsum" size={4} />
       <Paragraph
         text="Explore the many reasons distributors, food processors, and national account operators choose us as the solution to their supply chain's most difficult problems."

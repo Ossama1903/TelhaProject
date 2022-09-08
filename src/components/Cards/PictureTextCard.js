@@ -4,14 +4,18 @@ import img_src from '../../assets/customer_home2.jpg';
 
 const PictureTextCard = (props) => {
 
+    var reverseCheck;
+    reverseCheck = props.arrangement==="-reverse" ? true : false;
+
+
   return (
-    <div className={`Containerr flex flex-col md:flex-row${props.arrangement} items-center gap-10 max-w-full pb-24`}>
+    <div className={`Containerr flex flex-col md:flex-row${props.arrangement} items-center gap-10 max-w-full py-10`}>
       <div className="max-w-full md:max-w-1/2">
         <a href="#">
           <img src={img_src} />
         </a>
       </div>
-      <TextCard />
+      <TextCard reverse={reverseCheck} />
     </div>
   );
 };
