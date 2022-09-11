@@ -30,7 +30,7 @@ const SignUp = () => {
                
                 
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
-                  <Button text="Sign In" width={12} height={4} />
+                  <Button text="Sign Up" width={12} height={4} />
                 </div>
                 <p className="text-sm font-light text-white text-center">
                   Already have an account?{" "}
