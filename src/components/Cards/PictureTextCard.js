@@ -7,9 +7,11 @@ const PictureTextCard = (props) => {
     var reverseCheck;
     reverseCheck = props.arrangement==="-reverse" ? true : false;
 
+    var flexArrangement = reverseCheck===true ? "md:flex-row-reverse" : "md:flex-row";
+
 
   return (
-    <div className={`Containerr flex flex-col md:flex-row${props.arrangement} items-center gap-10 max-w-full py-10`}>
+    <div className={`Containerr flex flex-col ${flexArrangement} items-center gap-10 max-w-full py-10`}>
       <div className="max-w-full md:max-w-1/2">
         <a href="#">
           <img src={img_src} />

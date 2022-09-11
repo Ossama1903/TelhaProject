@@ -39,18 +39,18 @@ const Navbar = () => {
           {/* Mobile View Navigation */}
           <ul
             className={`
-                    md:hidden bg-white absolute w-full h-full bottom-0 uppercase py-24 pl-4
+                    md:hidden bg-white absolute w-full h-full bottom-0 uppercase py-20 pl-4
                     duration-500 ${open ? "left-0" : "left-[-100%]"}
                 `}
           >
-            <li className="py-7 px-3 inline-block text-sm cursor-pointer font-medium text-gray-500 hover:text-gray-900">
+            <li className="py-6 px-3 inline-block text-sm cursor-pointer font-medium text-gray-500 hover:text-gray-900">
               Home
             </li>
 
             <NavLinks />
-            <li className="py-7 px-3 cursor-pointer font-medium text-gray-500 hover:text-gray-900">Become a Customer</li>
-            <li className="py-7 px-3 cursor-pointer font-medium text-gray-500 hover:text-gray-900">Become a Supplier</li>
-            <div className="py-7 px-3">
+            <li className="py-6 px-3 cursor-pointer font-medium text-gray-500 hover:text-gray-900">Become a Customer</li>
+            <li className="py-6 px-3 cursor-pointer font-medium text-gray-500 hover:text-gray-900">Become a Supplier</li>
+            <div className="py-6 px-3">
               <IconButton text="Sign In" iconName="log-in-outline" />
             </div>
           </ul>
