@@ -31,6 +31,12 @@
     margin:auto;
 }
 
+.small-container {
+    width:40%;
+    margin:auto;
+}
+
+
 
 hr.style-two {
     border: 0;
